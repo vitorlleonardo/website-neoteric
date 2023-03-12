@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+
+nav {
+    position: fixed;
+	top: 0;
+	width: 100%;
+    background-color: #2b2d42;
+}
+
+main {
+    margin-top: 7%;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 25%;
+
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+li:hover {
+    transform: translateY(-25%);
+    border-bottom: 1px solid white;
+}
+
+a {
+    color: white;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.menu-pop {
+    margin-top: 2%;
+}
+
+.contrate {
+    margin-top: 2%;
+    margin-left: 65%;
+}
+
+#logo {
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+    font-size: 120%;
+}
+
+#contract {
+    width: 150%;
+    height: 72%;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+#contract:hover {
+    transform: translateY(-15%);
+    color: black;
+    background-color: white;
+}
+
+/*------------------------------NAV-------------------------------*/
+
+
+
+.primary-content {
+    display: flex;
+
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.all-content-primary {
+    margin-top: 5%;
+}
+
+#title-company {
+    font-weight: 600;
+    font-size: 52px;
+}
+
+#text-about-neoteric {
+    margin-top: 10%;
+    color: hsl(0, 0%, 41%);
+}
+
+#button-about-us {
+    width: 40%;
+    height: 7%;
+
+    margin-top: 5%;
+    border-radius: 15px;
+
+    background-color: transparent;
+
+    transition: .4s ease-in-out;
+}
+
+#button-about-us i {
+    margin-left: 10px;
+}
+
+#button-about-us:hover {
+    transform: translateY(-20%);
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    box-shadow: 0px 7px;
+}
+
+#image-primary-content {
+    width: 70%;
+    height: 70%;
+
+    margin-left: 15%;
+}
+
+/*---------------------------ONE SECTION-----------------*/
+
+
+
+.secondary-content {
+    width: 100%;
+    height: 100%;
+
+    background-color: #2b2d42;
+}
+
+
+.all-content-secondary {
+    display: flex;
+    margin-left: 12%;
+}
+
+.about-us-secondary-content {
+    width: 60%;
+}
+
+#title-secondary-content {
+    margin-top: 10%;
+
+    font-weight: 600;
+    font-size: 42px;
+
+    color: white;
+}
+
+#text-about-us {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
+}
+
+/*-----------------------------SECOND SECTION------------------*/
+
+
+
+
+
+
+.third-content {
+    width: 100%;
+    height: 85vh;
+
+    margin-top: 15vh;
+}
+
+.all-content-third {
+    display: flex;
+    margin-left: 12%;
+}
+
+
+#third-title {
+    margin-top: 15%;
+
+    font-weight: 600;
+    font-size: 42px;
+}
+
+#third-text {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 41%);
+}
+
+#jobs {
+    width: 35%;
+    height: 7%;
+
+    border-radius: 15px;
+
+    background-color: transparent;
+
+    transition: .4s ease-in-out;
+    box-shadow: 2px 5px;
+}
+
+#jobs:hover {
+    transform: translateY(-20%);
+    box-shadow: 0px 7px;
+
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+#people-happy {
+    width: 80%;
+    height: 80%;
+
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 1%;
+}
+
+
+
+/*------------------------------THIRD SECTION----------------------*/
+
+
+
+
+
+
+footer  {
+    width: 100%;
+
+    background-color: #2b2d42;
+}
+
+.finish {
+    display: flex;
+}
+
+#last-title {
+    margin-top: 2%;
+    margin-left: 5%;
+    
+    font-weight: 600;
+    font-size: 100%;
+
+    color: white;
+}
+
+
+i {
+    margin-left: 5%;
+}
+
