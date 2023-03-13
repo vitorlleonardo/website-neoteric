@@ -1,11 +1,39 @@
+@media  screen and (max-width: 420px){
+    .all-content-primary {
+        margin-right: 5%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title-company {
+        margin-top: 5%;
+        font-size: 100%;
+    }
+}
+
 @media  screen and (max-width: 600px) {
     .menu-bar {
         display: block;
     }
 
-    
+    .primary-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-man {
+        margin-top: 5%;
+        order: 0;
+    }
+
     #image-primary-content {
-        display: none;
+        margin-left: 0;
+    }
+
+    .all-content-primary {
+        order: 1;
     }
 
     #people-happy {
@@ -31,6 +59,34 @@
     #third-text {
         margin-right: 5%;
     }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .container-fluid {
+        display: flex;
+        margin-right: 3%;
+        
+    }
+
+    .navbar-toggler {
+        margin-top: 2%;
+        margin-left: 75%;
+        color: white;
+    }
+
+    #second-title-container {
+        margin-top: 2%;
+        color: white;
+        font-weight: 600;
+        font-size: 100%;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -45,9 +101,29 @@
     #jobs {
         width: 70%;
     }
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .container-fluid {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
+    .contrate {
+        margin-left: 60%;
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .contrate {
         display: none;
     }
