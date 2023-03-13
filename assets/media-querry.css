@@ -18,28 +18,6 @@
         display: block;
     }
 
-    .primary-content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .image-man {
-        margin-top: 5%;
-        order: 0;
-    }
-
-    #image-primary-content {
-        margin-left: 0;
-    }
-
-    .all-content-primary {
-        order: 1;
-    }
-
-    #people-happy {
-        display: none;
-    }
-
     ul {
         display: none;
     }
@@ -86,6 +64,80 @@
         color: white;
         font-weight: 600;
         font-size: 100%;
+    }
+
+    #button-about-us {
+        transition: none;
+    }
+
+    #button-about-us:hover {
+        transform: translateY(0);
+        background: none;
+        color: black;
+        box-shadow: none;
+    }
+
+    #jobs {
+        transition: none;
+        box-shadow: none;
+    }
+
+    #jobs:hover {
+        transform: translateY(0);
+        background: none;
+        color: black;
+        box-shadow: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .primary-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-man {
+        margin-top: 5%;
+        order: 0;
+    }
+
+    #image-primary-content {
+        margin-left: 0;
+    }
+
+    .all-content-primary {
+        order: 1;
+    }
+
+    .all-content-third {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-content-third {
+        order: 1;
+    }
+
+    #people-happy {
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        order: 0;
+    }
+
+    .third-content {
+        height: 70%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .third-content {
+        height: 70%;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 }
 
