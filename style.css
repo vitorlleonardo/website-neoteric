@@ -19,69 +19,11 @@ main {
     margin-top: 7%;
 }
 
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-li {
-    margin-left: 25%;
-
-    cursor: pointer;
-    transition: .3s ease-in-out;
-}
-
-li:hover {
-    transform: translateY(-25%);
-    border-bottom: 1px solid white;
-}
-
 a {
     color: white;
     scroll-behavior: smooth;
     text-decoration: none;
 }
-
-.navigation {
-    display: flex;
-    margin-bottom: 1%;
-}
-
-.menu-pop {
-    margin-top: 2%;
-}
-
-.contrate {
-    margin-top: 2%;
-    margin-left: 65%;
-}
-
-#logo {
-    margin-top: 2%;
-    margin-left: 2%;
-    color: white;
-    font-size: 120%;
-}
-
-#contract {
-    width: 150%;
-    height: 72%;
-
-    border-radius: 10px;
-    border: 1px solid white;
-    background-color: transparent;
-
-    color: white;
-    transition: .4s ease-in-out;
-}
-
-#contract:hover {
-    transform: translateY(-15%);
-    color: black;
-    background-color: white;
-}
-
 /*------------------------------NAV-------------------------------*/
 
 
@@ -174,7 +116,9 @@ a {
 }
 
 /*-----------------------------SECOND SECTION------------------*/
-
+.people-working {
+    margin-right: 5%;
+}
 
 
 
@@ -227,12 +171,12 @@ a {
     color: white;
 }
 
+
 #people-happy {
-    width: 80%;
+    width: 100%;
     height: 80%;
 
-    margin-left: 10%;
-    margin-right: 5%;
+    margin-top: 22%;
     border-radius: 1%;
 }
 

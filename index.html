@@ -20,54 +20,33 @@
 
 <body>
     <header>
-        <nav>
-            <div class="navigation">
-                <h2 id="logo">NEOTERIC</h2>
-                <div class="menu-pop">
-                    <ul>
-                        <li><a href="#first">Home</a></li>
-                        <li><a href="#secondary-content">About</a></li>
-                        <li><a href="#terceira-secao">Careers</a></li>
-                        <li><a href="https://github.com/vitorlleonardo" target="_blank">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="contrate">
-                    <button id="contract">Contrate</button>
-                </div>
-
-            </div>
-
+        <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <h1 id="second-title-container">Neoteric</h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <i class="fa-solid fa-bars"></i></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                  <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                      <li class="nav-item">
+              <a class="navbar-brand" href="#" style="margin-left: 2%;">NEOTERIC</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasTop"
+                aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasTopLabel">Contato</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#first">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" data-bs-dismiss="offcanvas" aria-current="page"
-                        href="#secondary-content">About Us</a>
-                      </li>
-                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#secondary-content">About Us</a>
                         <a class="nav-link active" aria-current="page" href="#terceira-secao">Careers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://github.com/vitorlleonardo" target="_blank">My GitHub</a>
-                      </li>
-                  </div>
+                      <a class="nav-link active" aria-current="page" href="https://github.com/vitorlleonardo"
+                        target="_blank">GitHub</a>
+                    </li>
                 </div>
               </div>
-        </nav>
-
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -109,7 +88,7 @@
                     <p id="third-text">Neoteric Innovations is a leading technology company that is always looking for talent to join its dynamic and innovative team. If you are passionate about technology and looking for an opportunity to work in a creative and challenging environment, Neoteric Innovations may be the right place for you.</p>
                     <button id="jobs">Jobs<i class="fa-solid fa-suitcase"></i></button>
                 </div>
-                <div>
+                <div class="people-working">
                     <img src="./img/people-working.jpg" alt="" id="people-happy">
                 </div>
             </div>
